@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sponge on Jamie Mansfield</title>
+    <link>/tags/sponge/</link>
+    <description>Recent content in Sponge on Jamie Mansfield</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Apr 2015 19:09:21 +0100</lastBuildDate>
+    <atom:link href="/tags/sponge/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>State Of Sponge Three</title>
+      <link>/post/State-Of-Sponge-Three/</link>
+      <pubDate>Sat, 25 Apr 2015 19:09:21 +0100</pubDate>
+      
+      <guid>/post/State-Of-Sponge-Three/</guid>
+      <description>&lt;p&gt;In little over 2 hours, State of Sponge Three will commence.
+As usual I will watch and probably play on the server (if there is one).&lt;/p&gt;
+
+&lt;p&gt;For more information, see Sponge&amp;rsquo;s &lt;a href=&#34;https://forums.spongepowered.org/t/sponge-status-update-18th-april-2015/6733&#34;&gt;post&lt;/a&gt; on this.&lt;/p&gt;
+
+&lt;iframe width=&#34;400&#34; height=&#34;250&#34; src=&#34;http://itsalmo.st/#sos3:embed&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; style=&#34;border: 1px solid #dbd8d7&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;For those of you who were unable to watch&amp;hellip;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/a54ny12Tr54&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

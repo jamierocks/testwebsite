@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/stylesheets/shiori.css">
+    <link href='//fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <title>Blogging with GitHub Pages | Jamie Mansfield</title>
+    
+    
+
+  </head>
+  <body>
+    <div class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="navbar-toggle-wrapper visible-xs">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".js-navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <a href="/" class="navbar-brand">Jamie Mansfield</a>
+        </div>
+        <div class="collapse navbar-collapse js-navbar-collapse">
+          <ul class="navbar-nav nav">
+            <li><a href="/post">Archive</a></li>
+
+          </ul>
+          <ul class="navbar-nav nav navbar-right">
+            <li class="hidden-xs"><iframe src="http://ghbtns.com/github-btn.html?user=chibicode&repo=hugo-theme-shiori&type=watch&count=true&size=large"
+  allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30" style="margin-top: 14px;"></iframe>
+</li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+
+<div class="row">
+  <div class="col-sm-8">
+    <div class="post-header">
+      <h1 class="post-title-main">Blogging with GitHub Pages</h1>
+      <p class="text-muted">Apr 15, 2015</p>
+
+    </div>
+    <div class="post-content">
+      
+
+<h2 id="introduction:462bf33e5eea059dc37050d54262cad0">Introduction</h2>
+
+<p>Blogging with GitHub pages, is often a hard question to answer owing to GitHub pages only supporting Jekyll and static HTML.
+ However after reading this tutorial you will be able to make your own blog, using GitHub pages with ease.</p>
+
+<h2 id="prerequisites:462bf33e5eea059dc37050d54262cad0">Prerequisites</h2>
+
+<p><a href="http://hexo.io/">hexo-cli</a>
+ <a href="http://www.git-scm.com/">Git</a>, and set up a GitHub repository that will contain your website</p>
+
+<h2 id="tutorial:462bf33e5eea059dc37050d54262cad0">Tutorial</h2>
+
+<ol>
+<li><p>To start with, you will need to make sure you have all the prerequisites installed.</p></li>
+
+<li><p>Next you will want to create an empty directory and do the following commands in Terminal.</p></li>
+</ol>
+
+<pre><code>   hexo init
+   npm install
+</code></pre>
+
+<p>This will initialize the directory as a Hexo blog.
+   The second command, will get all the dependencies of your blog, so you that every time you update your package.json!</p>
+
+<ol>
+<li>Generate the static version of your blog.</li>
+</ol>
+
+<pre><code>   hexo generate
+</code></pre>
+
+<p>This generates all the static files for your site, we will commit these next.</p>
+
+<ol>
+<li>Commit and push to your repository</li>
+</ol>
+
+<pre><code>   cd public
+   git init
+   git remote add origin git@github.com:(username)/(username).github.io.git
+   git add --all .
+   git commit &quot;Initial commit&quot;
+   git push
+</code></pre>
+
+<p>The above moves into the directory containing the generated (static) files.
+   The rest initializes a local Git repository and pushes to your GitHub pages repository.</p>
+
+<ol>
+<li>Commit and push your non-static content to a new branch.</li>
+</ol>
+
+<pre><code>   cd ../
+   git init
+   git remote add origin git@github.com:(username)/(username).github.io.git
+   git fetch
+   git checkout source
+   git add --all .
+   git commit &quot;Initial commit&quot;
+   git push
+</code></pre>
+
+<p>The above moves into the directory containing the non-static files.
+   The rest initializes a local Git repository and pushes to the &lsquo;source&rsquo; branch on your GitHub pages repository.</p>
+
+<ol>
+<li><p>Set your default branch to &lsquo;source&rsquo; on GitHub
+On your web browser navigate to your repository page.
+Navigate now to the settings, for your repository.
+Set the default branch to &lsquo;source&rsquo;.
+I have done this for the convenience of any of your contributors.</p></li>
+
+<li><p>Setup auto static generation with a CI
+Like, me you can make it so a CI automatically pushes your static content to your &lsquo;master&rsquo; branch.
+This can be done with any CI, I use <a href="https://travis-ci.org/">Travis-CI</a>.
+You will need to get the CI to automatically generate the static files, and push them to git.</p></li>
+</ol>
+
+<pre><code>   hexo generate
+</code></pre>
+
+<p>The above generates the static files (they are placed inside the &lsquo;public&rsquo; directory)</p>
+
+<ol>
+<li>Start working on your site!
+By this point you can start creating content and modifying the settings of your site.
+eg:
+
+<ul>
+<li>Change the theme</li>
+<li>Add some plugins</li>
+<li>Setting up your site details in &lsquo;_config.yml&rsquo;</li>
+</ul></li>
+</ol>
+
+<h2 id="tips:462bf33e5eea059dc37050d54262cad0">Tips</h2>
+
+<ul>
+<li>Use <code>hexo server</code> to test</li>
+<li>Add your site to <a href="https://www.google.com/webmasters/">Google Webmasters</a>, and for other search engines too
+You may want to generate a sitemap for this, you can do so with the <a href="https://githubcom/hexojs/hexo-generator-sitemap">hexo-generator-sitemap</a> plugin.</li>
+</ul>
+
+    </div>
+    <div class="post-footer">
+      <a href="/post" class="btn btn-primary btn-block btn-lg">View All 3 Articles →</a>
+
+    </div>
+    
+  </div>
+  <div class="col-sm-4">
+    <h3>
+  Author
+</h3>
+
+<p>
+  <div class="media">
+    <img src="http://www.gravatar.com/avatar/?s=100" alt="" class="pull-left">
+    <div class="media-body">
+      <h4 class="media-heading"></h4>
+    </div>
+  </div>
+</p>
+
+<p><a href="https://twitter.com/" class="twitter-follow-button" data-show-screen-name="false" data-show-count="true" data-dnt="true" data-size="large">Follow @</a></p>
+
+  </div>
+</div>
+      <div class="row footer">
+        <div class="col-sm-12 text-center">
+          &copy; 2015.
+Built with <a href="http://gohugo.io/">Hugo</a> and
+<a href="https://github.com/chibicode/hugo-theme-shiori">Shiori Theme</a>.
+
+        </div>
+      </div>
+    </div>
+    <script src="/javascripts/shiori.js"></script>
+    
+
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+  </body>
+</html>
+

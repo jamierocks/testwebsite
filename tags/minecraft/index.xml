@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Minecraft on Jamie Mansfield</title>
+    <link>/tags/minecraft/</link>
+    <description>Recent content in Minecraft on Jamie Mansfield</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Apr 2015 19:09:21 +0100</lastBuildDate>
+    <atom:link href="/tags/minecraft/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>State Of Sponge Three</title>
+      <link>/post/State-Of-Sponge-Three/</link>
+      <pubDate>Sat, 25 Apr 2015 19:09:21 +0100</pubDate>
+      
+      <guid>/post/State-Of-Sponge-Three/</guid>
+      <description>&lt;p&gt;In little over 2 hours, State of Sponge Three will commence.
+As usual I will watch and probably play on the server (if there is one).&lt;/p&gt;
+
+&lt;p&gt;For more information, see Sponge&amp;rsquo;s &lt;a href=&#34;https://forums.spongepowered.org/t/sponge-status-update-18th-april-2015/6733&#34;&gt;post&lt;/a&gt; on this.&lt;/p&gt;
+
+&lt;iframe width=&#34;400&#34; height=&#34;250&#34; src=&#34;http://itsalmo.st/#sos3:embed&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; style=&#34;border: 1px solid #dbd8d7&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;For those of you who were unable to watch&amp;hellip;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/a54ny12Tr54&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introducing NeptunePowered</title>
+      <link>/post/Introducing-NeptunePowered/</link>
+      <pubDate>Sat, 18 Apr 2015 20:53:38 +0100</pubDate>
+      
+      <guid>/post/Introducing-NeptunePowered/</guid>
+      <description>
+
+&lt;h2 id=&#34;what-is-neptunepowered-http-www-neptunepowered-org:fbcbb239fcc0130e039cd74a904bacf6&#34;&gt;What is &lt;a href=&#34;http://www.neptunepowered.org/&#34;&gt;NeptunePowered&lt;/a&gt;?&lt;/h2&gt;
+
+&lt;p&gt;NeptunePowered is a team dedicated to making server owners lives easier.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-is-neptune:fbcbb239fcc0130e039cd74a904bacf6&#34;&gt;What is Neptune?&lt;/h2&gt;
+
+&lt;p&gt;Neptune is a work-in-progress implementation of CanaryLib for &amp;lsquo;Vanilla&amp;rsquo; Minecraft.
+  It will be implemented using &lt;a href=&#34;https://github.com/SpongePowered/Mixin&#34;&gt;Mixin&lt;/a&gt;.
+  Neptune will also use mcp mappings.&lt;/p&gt;
+
+&lt;h2 id=&#34;why:fbcbb239fcc0130e039cd74a904bacf6&#34;&gt;Why?&lt;/h2&gt;
+
+&lt;p&gt;I am a big supporter of Canary, and feel (in comparison to other server mods) Canary lacks a great implementation.
+  This is why I am creating Neptune.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-about-arno:fbcbb239fcc0130e039cd74a904bacf6&#34;&gt;What about Arno?&lt;/h2&gt;
+
+&lt;p&gt;I am not stopping development of Arno, infact Arno has been acquired by NeptunePowered.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-is-arno:fbcbb239fcc0130e039cd74a904bacf6&#34;&gt;What is Arno?&lt;/h2&gt;
+
+&lt;p&gt;Arno is a similar product to Neptune, except from being implemented ontop Minecraft Forge.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
