@@ -1,7 +1,0 @@
-sudo: false
-script: "./etc/build.sh"
-env:
-  global:
-    secure: "PXl/Uqb6sTFKdJeR1KW719TgV2ST3psISBd7hMTooblBNlDACukQ+uggJjG3qi1CXVJFsG37aR0PrW68SvOfzs8df7r845d4Chs/2XSw9CiPb3zcHG8uInR0v+saqnJpyp3a6beCZlBhSMvS/6qlBQRVqRimu+M9CXOME2Nv2NM="
-notifications:
-  email: false
