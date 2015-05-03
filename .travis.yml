@@ -1,7 +1,4 @@
 sudo: false
-language: go
-node_js:
-  - tip
 script: "./etc/build.sh"
 env:
   global:
