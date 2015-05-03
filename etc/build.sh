@@ -34,7 +34,7 @@ if [[ $TRAVIS_BRANCH = master ]]; then
     # Deploy
     git add --all .
     git commit -q -m "Deploy $(date)"
-    git push -q -f origin master
+    git push -q -f origin gh-pages
     echo "Done! Successfully published docs!"
 fi
 
