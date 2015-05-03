@@ -4,6 +4,9 @@ DOCS_REPO=${DOCS_REPO:-"git@github.com:jamierocks/testwebsite.git"}
 LEX_DEPLOY=https://github.com/LexBot/Deploy.git
 DEPLOY_SCRIPTS=/tmp/histacom/deploy
 
+export GOPATH=$HOME/go
+go get -v github.com/spf13/hugo
+
 # Get the deploy scripts
 git clone $LEX_DEPLOY $DEPLOY_SCRIPTS
 
