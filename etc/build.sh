@@ -26,7 +26,7 @@ git checkout gh-pages
 
 # Build the docs
 cd ../
-$GOPATH/hugo
+$GOPATH/bin/hugo
 cd public
 
 # If we're on the master branch, do deploy
