@@ -1,0 +1,11 @@
+languageCode: "en-us"
+title: "Jamie Mansfield"
+theme: "herring-cove"
+params:
+  ProfilePicture: "/favicon.png"
+  AuthorName: "Jamie Mansfield"
+  github: "http://github.com/jamierocks"
+  twitter: "http://twitter.com/LexteamJamie"
+  links:
+    Home : "/"
+    Neptune: "http://www.neptunepowered.org/"
